@@ -73,7 +73,7 @@ namespace Media4Notas
             }
 
             resultMedia = (N1 + N2 + N3 + N4) / 4;
-            if (resultMedia >= 7)
+            if (resultMedia > 6)
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine();
